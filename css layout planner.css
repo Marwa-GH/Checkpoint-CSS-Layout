@@ -1,0 +1,433 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+    
+}
+
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #00b39b;
+  }
+  
+  ::selection {
+    color: white;
+    background: #00b39b;
+  }
+
+
+nav {
+    background: hsla(0, 0%, 100%, .98);
+    
+    margin-left: 25px;
+    padding: 0%;
+    position:fixed;
+
+}
+
+.active {
+    color: #00b39b;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    list-style: none;
+    
+    margin-right: 50px;
+}
+
+nav ul li {
+    font-weight: 500;
+    list-style-type: none;
+    
+    justify-content: space-around;
+    padding: 0%;
+}
+.dropdown{
+    float: right;
+    
+}
+
+nav ul li a {
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.logo-docplanner {
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+#lead-logo {
+    text-align: center;
+    top: 350px;
+    max-width: 100%;
+    margin-left: 600px;
+    padding-top: 40px;
+    display: block;
+   
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+}
+
+.title1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    margin-left: 100px;
+}
+
+.container2 p {
+    color: gray;
+    width: 600px;
+    padding-top: 70px;
+    justify-content: space-between;
+    display: inline-flex;
+    line-height: 1.75;
+    font-weight: 400;
+    margin-right: 100px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.grid {
+
+
+display: grid;
+grid-template-columns: 33% 33% 33%;
+box-sizing: border-box;
+border-radius: 10px;
+overflow: hidden;
+justify-content: space-around;
+margin-left: 50px;
+}
+
+.Forpatients {
+    border: hidden;
+    background: #00ccb1;
+    width: 300px;
+height: 250px;
+    margin: 10px;
+  
+}
+
+.Fordoctors {
+    border-radius: 10px;
+    border: hidden;
+    background: #3d83df;
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    
+}
+
+.Forclinics {
+    border-radius: 10px;
+    border: hidden;
+    background: #636363;
+    width: 300px;
+height: 250px;
+    margin: 10px;
+    
+}
+.Forpatients select{
+    background-color: #00ccb1;;
+    text-decoration: none;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    color: white;
+
+}
+.Fordoctors select{
+    background-color: #00ccb1;;
+    text-decoration: none;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    color: white;
+}
+.Forclinics select{
+    background-color: #00ccb1;;
+    text-decoration: none;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    color: white;}
+h5 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: Work Sans, Arial, sans-serif;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.logos-wi {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.theme3 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 180px;
+    ;
+    padding-right: 180px;
+}
+
+.item3 {
+    padding-right: 180px;
+    display: flex;
+    flex-direction: row;
+    background: #e5faf8;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 50px;
+}
+
+.title--2 {
+    padding-top: 80px;
+    margin-bottom: 27px;
+    color: #00b39b;
+    font-size: 25px;
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 30px;
+    padding-left: 70px;
+}
+
+h2 {
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 25px;
+}
+
+.we-work-p {
+    font-size: 13px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    padding-left: 180px;
+    color: #747474;
+    padding-left: 40px;
+}
+
+#lead-logo3 {
+    width: 80%;
+    height: 80;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-top: 70px;
+}
+
+.Boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 90px;
+}
+
+.Box-w {
+    color: #00b39b;
+}
+
+.BOX-w-1,
+.BOX-w-2,
+.BOX-w-3,
+.BOX-w-4 {
+    background: #fff;
+    height: 250px;
+    width: 220px;
+    text-align: center;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.BOX-w-1 {
+    margin-top: 47px;
+    margin-right: 22px;
+    margin-bottom: 10px;
+}
+
+.BOX-w-2 {
+    margin-top: 22px;
+    margin-right: 0px;
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+
+.BOX-w-3 {
+    margin-top: 10px;
+    margin-right: 22px;
+    margin-bottom: 15px;
+}
+
+.BOX-w-4 {
+    margin-left: 22px;
+}
+
+.p-w {
+    color: grey;
+}
+
+h3 {
+    color: aqua;
+}
+
+.section3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section3 p {
+    color: #747474;
+    text-align: center;
+    padding-left: 430px;
+    padding-right: 450px;
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+
+.title-box h3 {
+    color: #00b39b;
+    font-size: 1.8461538462em;
+    margin: .5em 0;
+    font-size: 1rem;
+    margin: 1em 0;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+h10 {
+    text-align: center;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.section-pays {
+    display: flex;
+    flex-direction: row;
+    padding-left: 180px;
+    ;
+    padding-right: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pays-7 {
+    height: auto;
+    width: auto;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin: 5px;
+}
+
+.image-pays {
+    margin: 50px;
+    border-radius: 5px;
+    height: 100px;
+    width: auto;
+}
+
+.pays {
+    text-decoration: none;
+}
+
+.section-final {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.section-final a {
+    margin-left: 600px;
+    margin-right: 500px;
+}
+
+.title-final {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 35px;
+}
+
+button {
+    float: right;
+    padding-right: 1em 1.5em;
+    padding-top: 1em 1.5em;
+}
+
+label {
+    float: left;
+    padding: 1em 1.5em;
+    font-size: 16px;
+    color: #747474;
+}
+
+footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+.dropdown-content{
+    list-style-type: none;
+    text-align: center;
+    padding: 0 10px;
+    background: #eef2f2 ;
+}
